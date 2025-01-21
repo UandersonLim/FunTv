@@ -4,6 +4,7 @@ export const StyleSection = styled.section`
   display: flex;
   justify-content: center;
   width: 450px;
+  height: 995px;
   background-color: #ffffff;
   margin: 50px 0 20px 0;
   background-image: url("Batman.png");
@@ -11,6 +12,7 @@ export const StyleSection = styled.section`
   color: #ffffff;
   position: relative;
   padding: 10px;
+  
 
   @media(max-width: 1550px){
     margin-top: 20px;

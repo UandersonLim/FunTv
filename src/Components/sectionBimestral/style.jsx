@@ -4,6 +4,7 @@ export const StyleSection = styled.section`
   display: flex;
   justify-content: center;
   width: 450px;
+  height: 995px;
   background-color: #ffffff;
   margin: 50px 0 20px 0;
   box-shadow: inset 0 0 0 10px #000000;
@@ -64,6 +65,7 @@ export const StyleSection = styled.section`
   }
 
   @media(max-width: 1024px){
+    border-bottom: 2px solid #696969;
     margin-top: 0;
   }
 

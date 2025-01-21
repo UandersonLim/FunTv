@@ -19,6 +19,10 @@ const ComponentBimestral = () => {
           </li>
           <li>
             <img src={Check} alt="Icone check" />
+            Filmes e Seriés atualizados
+          </li>
+          <li>
+            <img src={Check} alt="Icone check" />
             Qualidade 4k/FHD/HD/SD
           </li>
           <li>

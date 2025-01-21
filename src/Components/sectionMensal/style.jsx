@@ -4,6 +4,7 @@ export const StyleSection = styled.section`
   display: flex;
   justify-content: center;
   width: 450px;
+  height: 995px;
   background-color: #ffffff;
   background-image: url("Capitao.png");
   background-repeat: no-repeat;
@@ -58,6 +59,7 @@ export const StyleSection = styled.section`
   }
 
   @media(max-width: 1024px){
+    border-bottom: 2px solid #696969;
     margin-bottom: 0;
   }
 
