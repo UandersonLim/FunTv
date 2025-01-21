@@ -51,7 +51,7 @@ const Main = () => {
           <span>Informações importantes: </span>Para retirada de canais adultos
           da lista, deve ser
           <p>
-            solicitando a exclusão da sua lista. Caso necessario contate nossa
+            solicitado a exclusão da sua lista. Caso necessario contate nossa
             equipe.
           </p>
         </p>

@@ -7,9 +7,9 @@ export const StyleSection = styled.section`
   background-color: #ffffff;
   margin: 50px 0 20px 0;
   box-shadow: inset 0 0 0 10px #000000;
-  /* background-image: url("SuperHomem.png"); */
+  background-image: url("Fun.png");
   background-repeat: no-repeat;
-  color: #000000;
+  color: #ffffff;
   position: relative;
   padding: 10px;
 
@@ -44,7 +44,7 @@ export const StyleSection = styled.section`
     align-items: center;
     gap: 20px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 17px;
   }
 
   ul li img{
@@ -59,7 +59,7 @@ export const StyleSection = styled.section`
   }
 
   button{
-    background-color: #000000;
+    background-color: #ffffff;
     
   }
 
@@ -69,6 +69,8 @@ export const StyleSection = styled.section`
 
    @media(max-width: 600px){
       width: 350px;
+      background-size: cover;
+      background-position: center;
 
       h1, data{
         font-size: 180%;

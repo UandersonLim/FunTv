@@ -11,11 +11,11 @@ const ComponentTrimestral = () => {
         <data value="35.00">R$ 70,00</data>
         <ul>
           <li>
-            <img src={Check} alt="Icone check" />+ 1 Tela de brinde
+            <img src={Check} alt="Icone check" />2 Telas
           </li>
           <li>
             <img src={Check} alt="Icone check" />
-            +60.000 Contéudos
+            Uma infinidade de Canais
           </li>
           <li>
             <img src={Check} alt="Icone check" />
@@ -31,7 +31,7 @@ const ComponentTrimestral = () => {
           </li>
           <li>
             <img src={Check} alt="Icone check" />
-            Assista no computador
+            Assista no computador/notebook
           </li>
           <li>
             <img src={Check} alt="Icone check" />

@@ -44,7 +44,7 @@ export const StyleSection = styled.section`
     align-items: center;
     gap: 20px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 17px;
   }
 
   ul li img{

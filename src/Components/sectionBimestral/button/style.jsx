@@ -6,9 +6,10 @@ const StyleButton = styled.button`
   margin: 140px 0;
   border: none;
   font-weight: 600;
+  color: #000000;
   
   a{
-      color: #ffffff;
+    color: #000000;
       
   }
 

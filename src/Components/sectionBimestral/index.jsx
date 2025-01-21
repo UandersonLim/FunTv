@@ -1,5 +1,5 @@
 import { StyleSection } from "./style";
-import Check from "/icones/check.svg";
+import Check from "/icones/check-branco.svg";
 import Button from "./button";
 
 const ComponentBimestral = () => {
@@ -11,11 +11,11 @@ const ComponentBimestral = () => {
         <data value="45.00">R$ 45,00</data>
         <ul>
           <li>
-            <img src={Check} alt="Icone check" />+ 1 Tela de brinde
+            <img src={Check} alt="Icone check" />2 Telas
           </li>
           <li>
             <img src={Check} alt="Icone check" />
-            +60.000 Contéudos
+            Uma infinidade de Canais
           </li>
           <li>
             <img src={Check} alt="Icone check" />
@@ -31,7 +31,7 @@ const ComponentBimestral = () => {
           </li>
           <li>
             <img src={Check} alt="Icone check" />
-            Assista no computador
+            Assista no computador/notebook
           </li>
           <li>
             <img src={Check} alt="Icone check" />

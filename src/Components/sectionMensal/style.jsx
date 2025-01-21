@@ -31,7 +31,7 @@ export const StyleSection = styled.section`
   h1,
   data {
     font-size: 36px;
-    text-shadow: 0px 2px 0px rgba(0, 0, 0, 50%);
+    text-shadow: 0px 2px 0px rgba(255, 255, 255, 50%);
   }
 
   ul {
@@ -43,7 +43,7 @@ export const StyleSection = styled.section`
     align-items: center;
     gap: 20px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 17px;
   }
 
   ul li img{
