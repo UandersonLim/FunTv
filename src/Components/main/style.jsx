@@ -59,10 +59,10 @@ const ButtonTesteGratis = styled.button`
   @media (max-width: 748px) {
     width: 300px;
     font-size: 90%;
-    background-color: #c7b6ac;
+    background-color: #E3B413;
 
     a {
-      color: #ffffff;
+      color: #000000;
     }
   }
 `;
@@ -75,7 +75,7 @@ const SectionPlanos = styled.section`
   width: 90%;
   background-color: #fdfbfb;
 
-  .planosPrimeLink {
+  .planosFuntv {
     text-align: center;
     color: #000000;
     font-size: 20px;

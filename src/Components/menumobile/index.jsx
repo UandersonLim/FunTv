@@ -25,7 +25,7 @@ const MenuMobile = (props) => {
           </li>
           <li>
             <a
-              href="https://api.whatsapp.com/send?phone=5519981047544&text=Ol%C3%A1!%20Quero%20saber%20mais."
+              href="https://w.app/bzC4im"
               target="_blank"
             >
               Contato

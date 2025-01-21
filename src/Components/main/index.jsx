@@ -19,12 +19,12 @@ const Main = () => {
       </div>
       <div className="box-button-test-free-two-hours">
         <ButtonTesteGratis>
-          <a href="https://api.whatsapp.com/send?phone=5519981047544&text=Quero%20um%20teste%2C%20de%202%20horas!" target="_blank">Clique para solicitar um teste grátis</a>
+          <a href="https://w.app/bzC4im" target="_blank">Clique para solicitar um teste grátis</a>
         </ButtonTesteGratis>
       </div>
 
       <SectionPlanos id="planos">
-        <p className="planosPrimeLink">Conheça nossos planos PrimeLink</p>
+        <p className="planosFuntv">Conheça nossos planos Fun TV</p>
 
         <div className="boxLine">
           <div className="line1"></div>
@@ -32,7 +32,7 @@ const Main = () => {
         </div>
 
         <p className="paragraphplans">
-          A <span>PrimeLink TV</span> oferece as melhores{" "}
+          A <span>Fun TV</span> oferece as melhores{" "}
           <span>listas IPTV</span> do <span>mercado brasileiro</span> com{" "}
           <p>
             atendimento ao cliente e suporte para configurações dos nossos

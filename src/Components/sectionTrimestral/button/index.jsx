@@ -4,7 +4,7 @@ import { StyleButton } from "./style";
 const Button = () => {
     return(
         <StyleButton>
-            <a href="https://api.whatsapp.com/send?phone=5519981047544&text=Quero%20assinar%20o%20plano%20trimestral." target="_blank">ASSINAR</a>
+            <a href="https://w.app/bzC4im" target="_blank">ASSINAR</a>
         </StyleButton>
     )}
 

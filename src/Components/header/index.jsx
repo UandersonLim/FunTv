@@ -11,7 +11,7 @@ const Header = () => {
             <ul>
                 <li className="plans"><a href="#planos">Planos</a></li>
                 <li><a href="#compatibilidade">Compatibilidade</a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=5519981047544&text=Ol%C3%A1!%20Quero%20saber%20mais." target="_blank">Contato</a></li>
+                <li><a href="https://w.app/bzC4im" target="_blank">Contato</a></li>
             </ul>
             <MenuHamburgue/>
         </StyleHeader>

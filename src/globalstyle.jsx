@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
     .displayON {
       position: absolute;
       color: #FE924D;
-      background-color: #23201d;
+      background-color: #000000;
       z-index: 3;
       right: 0;
 
