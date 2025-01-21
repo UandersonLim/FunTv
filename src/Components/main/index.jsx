@@ -20,7 +20,7 @@ const Main = () => {
       </div>
       <div className="box-button-test-free-two-hours">
         <ButtonTesteGratis>
-          <a href="https://w.app/bzC4im" target="_blank">Clique para solicitar um teste grátis</a>
+          <a href="https://api.whatsapp.com/send?phone=5551996435325&text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20e%20gostaria%20de%20testar." target="_blank">Clique para solicitar um teste grátis</a>
         </ButtonTesteGratis>
       </div>
 
