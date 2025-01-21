@@ -1,17 +1,17 @@
 import { StyleSection } from "./style";
-import Check from "/icones/check-branco.svg";
+import Check from "/icones/check.svg";
 import Button from "./button";
 
-const ComponentMensal = () => {
+const ComponentBimestral = () => {
   return (
     <StyleSection>
+      <div className="boxBlack"></div>
       <div>
-        <h1>MENSAL</h1>
-        <data value="25.00">R$ 25,00</data>
+        <h2>Bimestral</h2>
+        <data value="45.00">R$ 45,00</data>
         <ul>
-        <li>
-            <img src={Check} alt="Icone check" />
-            + 1 Tela de brinde
+          <li>
+            <img src={Check} alt="Icone check" />+ 1 Tela de brinde
           </li>
           <li>
             <img src={Check} alt="Icone check" />
@@ -41,12 +41,7 @@ const ComponentMensal = () => {
             <img src={Check} alt="Icone check" />
             Programação adultos(Opcional)
           </li>
-          {/* <li>
-            <img src={Check} alt="Icone check" />
-            Canais Legendados
-          </li> */}
         </ul>
-
         <div className="boxButon">
           <Button />
         </div>
@@ -55,4 +50,4 @@ const ComponentMensal = () => {
   );
 };
 
-export default ComponentMensal;
+export default ComponentBimestral;

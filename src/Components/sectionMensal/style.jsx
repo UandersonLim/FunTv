@@ -5,8 +5,17 @@ export const StyleSection = styled.section`
   justify-content: center;
   width: 450px;
   background-color: #ffffff;
-  border: 10px solid black;
+  background-image: url("Capitao.png");
+  background-repeat: no-repeat;
   margin: 50px 0 20px 0;
+  color: #ffffff;
+  position: relative;
+  padding: 10px;
+
+  @media(max-width: 1550px){
+    margin-bottom: 0;
+  }
+
 
   h1 {
     text-align: center;
@@ -35,6 +44,11 @@ export const StyleSection = styled.section`
     gap: 20px;
     margin-bottom: 20px;
     font-size: 20px;
+  }
+
+  ul li img{
+    width: 24px;
+    height: 24px;
   }
 
   .boxButon {

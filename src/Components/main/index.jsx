@@ -6,6 +6,7 @@ import {
 } from "./style";
 import ComponentMensal from "../sectionMensal";
 import ComponentTrimestral from "../sectionTrimestral";
+import ComponentBimestral from "../sectionBimestral";
 
 import App from "../../../public/icones/App.svg";
 import Android from "../../../public/icones/android.svg";
@@ -41,6 +42,8 @@ const Main = () => {
         </p>
         <div className="boxPlans">
           <ComponentMensal />
+          <div className="linebox"></div>
+          <ComponentBimestral />
           <div className="linebox"></div>
           <ComponentTrimestral />
         </div>

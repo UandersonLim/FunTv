@@ -11,6 +11,9 @@ const ComponentTrimestral = () => {
         <data value="35.00">R$ 70,00</data>
         <ul>
           <li>
+            <img src={Check} alt="Icone check" />+ 1 Tela de brinde
+          </li>
+          <li>
             <img src={Check} alt="Icone check" />
             +60.000 Contéudos
           </li>
@@ -37,10 +40,6 @@ const ComponentTrimestral = () => {
           <li>
             <img src={Check} alt="Icone check" />
             Programação adultos(Opcional)
-          </li>
-          <li>
-            <img src={Check} alt="Icone check" />
-            Canais Legendados
           </li>
         </ul>
         <div className="boxButon">

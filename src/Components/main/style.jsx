@@ -113,6 +113,7 @@ const SectionPlanos = styled.section`
 
   .boxPlans {
     display: flex;
+    flex-wrap: wrap;
   }
   .linebox {
     width: 2px;
@@ -185,6 +186,12 @@ const SectionPlanos = styled.section`
       margin-bottom: 50px;
       text-align: center;
       font-size: 90%;
+    }
+  }
+
+  @media (max-width: 1550px){
+    .boxPlans{
+      justify-content: center;
     }
   }
 

@@ -6,16 +6,16 @@ export const StyleSection = styled.section`
   width: 450px;
   background-color: #ffffff;
   margin: 50px 0 20px 0;
-  background-image: url("Batman.png");
+  box-shadow: inset 0 0 0 10px #000000;
+  /* background-image: url("SuperHomem.png"); */
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: #000000;
   position: relative;
   padding: 10px;
 
   @media(max-width: 1550px){
-    margin-top: 20px;
+    margin-bottom: 0;
   }
-
 
 
   h2 {
@@ -56,6 +56,11 @@ export const StyleSection = styled.section`
     display: flex;
     width: 100%;
     justify-content: center;
+  }
+
+  button{
+    background-color: #000000;
+    
   }
 
   @media(max-width: 1024px){
