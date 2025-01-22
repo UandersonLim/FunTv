@@ -16,7 +16,7 @@ const Main = () => {
   return (
     <Stylesection>
       <div>
-        <Divtext>Disponibilizamos um teste grátis por 2 horas</Divtext>
+        <Divtext>Disponibilizamos um teste grátis por 3 horas</Divtext>
       </div>
       <div className="box-button-test-free-two-hours">
         <ButtonTesteGratis>
