@@ -16,7 +16,7 @@ const Main = () => {
   return (
     <Stylesection>
       <div>
-        <Divtext>Disponibilizamos um teste grátis por 3 horas</Divtext>
+        <Divtext>DISPONIBILIZAMOS UM TESTE GRÁTIS DE 03 HORAS!</Divtext>
       </div>
       <div className="box-button-test-free-two-hours">
         <ButtonTesteGratis>
@@ -34,7 +34,7 @@ const Main = () => {
 
         <p className="paragraphplans">
           A <span>Fun TV</span> oferece as melhores{" "}
-          <span>listas IPTV</span> do <span>mercado brasileiro</span> com{" "}
+          <span>listas IPTV</span> do <span>mercado brasileiro</span> com
           <p>
             atendimento ao cliente e suporte para configurações dos nossos
             planos

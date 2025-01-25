@@ -38,7 +38,7 @@ const Divtext = styled.div`
   font-size: 20px;
 
   @media (max-width: 748px) {
-    font-size: 90%;
+    font-size: 80%;
   }
 `;
 
@@ -58,7 +58,8 @@ const ButtonTesteGratis = styled.button`
 
   @media (max-width: 748px) {
     width: 300px;
-    font-size: 90%;
+    font-size: 70%;
+    font-weight: 700;
     background-color: #E3B413;
 
     a {
@@ -153,6 +154,10 @@ const SectionPlanos = styled.section`
   @media (max-width: 748px) {
     width: 80%;
 
+    .planosFuntv{
+      font-size: 95%;
+    }
+
     .line1 {
       display: none;
     }
@@ -162,14 +167,31 @@ const SectionPlanos = styled.section`
     }
 
     .paragraphplans {
-      font-size: 90%;
+      width: 80%;
+      font-size: 100%;
       line-height: 25px;
-      letter-spacing: 5%;
-      padding: 0 5%;
+      padding: 5% 2%;
     }
 
     .planosPrimeLink {
       font-size: 18px;
+    }
+
+    .textInfor{
+      display: flex;
+      flex-direction: column;
+      /* text-align: justify; */
+      font-size: 80%;
+      width: 90%;
+      /* background-color: #E3B413; */
+      margin: 0 50px;
+    }
+  }
+
+  @media (max-width: 420px){
+
+    .paragraphplans{
+      font-size: 90%;
     }
   }
   @media (max-width: 1024px) {
@@ -211,7 +233,7 @@ const SectionPlanos = styled.section`
     }
   }
 
-  @media (max-width: 468px) {
+  @media (max-width: 480px) {
     .boxMessage p {
       font-size: 15px;
     }
