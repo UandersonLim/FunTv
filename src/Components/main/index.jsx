@@ -20,7 +20,12 @@ const Main = () => {
       </div>
       <div className="box-button-test-free-two-hours">
         <ButtonTesteGratis>
-          <a href="https://api.whatsapp.com/send?phone=5551996435325&text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20e%20gostaria%20de%20testar." target="_blank">CLIQUE AQUI PARA SOLICITAR SEU TESTE GRÁTIS!</a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5551996435325&text=Ol%C3%A1%21%20Vi%20seu%20an%C3%BAncio%20e%20gostaria%20de%20testar."
+            target="_blank"
+          >
+            CLIQUE AQUI PARA SOLICITAR SEU TESTE GRÁTIS!
+          </a>
         </ButtonTesteGratis>
       </div>
 
@@ -33,12 +38,9 @@ const Main = () => {
         </div>
 
         <p className="paragraphplans">
-          A <span>Fun TV</span> oferece as melhores{" "}
-          <span>listas IPTV</span> do <span>mercado brasileiro</span> com
-          <p>
-            atendimento ao cliente e suporte para configurações dos nossos
-            planos
-          </p>
+          A <span>Fun TV</span> oferece as melhores <span>listas IPTV</span> do{" "}
+          <span>mercado brasileiro</span> com atendimento ao cliente e suporte
+          para configurações dos nossos planos
         </p>
         <div className="boxPlans">
           <ComponentMensal />
@@ -49,16 +51,13 @@ const Main = () => {
         </div>
         <p className="textInfor">
           <span>Informações importantes: </span>Para retirada de canais adultos
-          da lista, deve ser
-          <p>
-            solicitado a exclusão da sua lista. Caso necessario contate nossa
-            equipe.
-          </p>
+          da lista, deve ser solicitado a exclusão da sua lista. Caso necessario
+          contate nossa equipe.
         </p>
         <div className="boxMessage">
           <p>
-            Uma nova forma de assistir TV
-            <p>quando e onde quiser, por um valor super acessível.</p>
+            Uma nova forma de assistir TV quando e onde quiser, por um valor
+            super acessível.
           </p>
         </div>
         <ul className="boxPlatforms" id="compatibilidade">

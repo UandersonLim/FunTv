@@ -23,10 +23,12 @@ const Stylesection = styled.main`
     margin-bottom: 160px;
 
     p {
+      width: 40%;
       text-align: center;
       font-size: 24px;
       font-weight: 600;
     }
+
   }
 `;
 
@@ -89,8 +91,10 @@ const SectionPlanos = styled.section`
   }
 
   .paragraphplans {
+    /* background-color: #E3B413; */
+    width: 648px;
     text-align: center;
-    padding: 0 150px;
+    /* padding: 0 50px; */
     margin-top: 20px;
   }
 
@@ -124,6 +128,7 @@ const SectionPlanos = styled.section`
   }
 
   .textInfor {
+    width: 40%;
     margin-bottom: 180px;
   }
 
@@ -167,7 +172,8 @@ const SectionPlanos = styled.section`
     }
 
     .paragraphplans {
-      width: 80%;
+      /* background-color: #E3B413; */
+      width: 90%;
       font-size: 100%;
       line-height: 25px;
       padding: 5% 2%;
@@ -180,20 +186,15 @@ const SectionPlanos = styled.section`
     .textInfor{
       display: flex;
       flex-direction: column;
-      /* text-align: justify; */
       font-size: 80%;
       width: 90%;
-      /* background-color: #E3B413; */
       margin: 0 50px;
     }
   }
 
-  @media (max-width: 420px){
+ 
 
-    .paragraphplans{
-      font-size: 90%;
-    }
-  }
+  
   @media (max-width: 1024px) {
     .boxPlans {
       flex-direction: column;
@@ -218,9 +219,13 @@ const SectionPlanos = styled.section`
   }
 
   @media (max-width: 1280px) {
-
+    
     .boxMessage{
       margin-bottom: 3rem;
+
+      p{
+        width: 80%;
+      }
     }
     .boxPlatforms {
       flex-direction: column;
@@ -233,8 +238,10 @@ const SectionPlanos = styled.section`
     }
   }
 
+/* <-------------------------------------------> */
   @media (max-width: 480px) {
     .boxMessage p {
+      margin: 0 5px;
       font-size: 15px;
     }
 
@@ -244,6 +251,14 @@ const SectionPlanos = styled.section`
 
     .planosPrimeLink{
       font-size: 16px;
+    }
+
+    .textInfor{
+      font-weight: 5px;
+    }
+
+    .paragraphplans{
+      font-size: 90%;
     }
     
   }
